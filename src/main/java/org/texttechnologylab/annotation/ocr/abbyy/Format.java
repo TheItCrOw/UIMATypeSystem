@@ -1,25 +1,27 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Sat May 10 12:59:28 CEST 2025 */
 
 package org.texttechnologylab.annotation.ocr.abbyy;
-
-
-import org.apache.uima.cas.impl.CASImpl;
-import org.apache.uima.cas.impl.TypeImpl;
-import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.JCasRegistry;
-import org.apache.uima.jcas.tcas.Annotation;
+ 
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 
+import org.apache.uima.cas.impl.CASImpl;
+import org.apache.uima.cas.impl.TypeImpl;
+import org.apache.uima.cas.impl.TypeSystemImpl;
+import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCasRegistry;
 
-/** Attributes of a line with uniform formatting.
- * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
- * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
+
+import org.apache.uima.jcas.tcas.Annotation;
+
+
+/** 
+ * Updated by JCasGen Sat May 10 12:59:28 CEST 2025
+ * XML source: C:/kevin/projects/duui/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Format extends Annotation {
  
@@ -136,7 +138,7 @@ public class Format extends Annotation {
   //*--------------*
   //* Feature: lang
 
-  /** getter for lang - gets Name of the language.
+  /** getter for lang - gets 
    * @generated
    * @return value of the feature 
    */
@@ -144,7 +146,7 @@ public class Format extends Annotation {
     return _getStringValueNc(wrapGetIntCatchException(_FH_lang));
   }
     
-  /** setter for lang - sets Name of the language. 
+  /** setter for lang - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -157,7 +159,7 @@ public class Format extends Annotation {
   //*--------------*
   //* Feature: ff
 
-  /** getter for ff - gets The name of the font.
+  /** getter for ff - gets 
    * @generated
    * @return value of the feature 
    */
@@ -165,7 +167,7 @@ public class Format extends Annotation {
     return _getStringValueNc(wrapGetIntCatchException(_FH_ff));
   }
     
-  /** setter for ff - sets The name of the font. 
+  /** setter for ff - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -178,7 +180,7 @@ public class Format extends Annotation {
   //*--------------*
   //* Feature: fs
 
-  /** getter for fs - gets The size of the font.
+  /** getter for fs - gets 
    * @generated
    * @return value of the feature 
    */
@@ -186,7 +188,7 @@ public class Format extends Annotation {
     return _getFloatValueNc(wrapGetIntCatchException(_FH_fs));
   }
     
-  /** setter for fs - sets The size of the font. 
+  /** setter for fs - sets  
    * @generated
    * @param v value to set into the feature 
    */

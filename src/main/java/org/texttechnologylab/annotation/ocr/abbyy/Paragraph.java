@@ -1,26 +1,26 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Sat May 10 12:59:28 CEST 2025 */
 
 package org.texttechnologylab.annotation.ocr.abbyy;
-
-
-import org.apache.uima.cas.impl.CASImpl;
-import org.apache.uima.cas.impl.TypeImpl;
-import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.JCasRegistry;
+ 
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 
+import org.apache.uima.cas.impl.CASImpl;
+import org.apache.uima.cas.impl.TypeImpl;
+import org.apache.uima.cas.impl.TypeSystemImpl;
+import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCasRegistry;
 
 
 
-/** Paragraph of a recognized text.
- * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
- * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
+
+/** 
+ * Updated by JCasGen Sat May 10 12:59:28 CEST 2025
+ * XML source: C:/kevin/projects/duui/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Paragraph {
  
@@ -122,7 +122,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
   //*--------------*
   //* Feature: leftIndent
 
-  /** getter for leftIndent - gets The left paragraph indent (optional, default value is 0)
+  /** getter for leftIndent - gets 
    * @generated
    * @return value of the feature 
    */
@@ -130,7 +130,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
     return _getIntValueNc(wrapGetIntCatchException(_FH_leftIndent));
   }
     
-  /** setter for leftIndent - sets The left paragraph indent (optional, default value is 0) 
+  /** setter for leftIndent - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -143,7 +143,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
   //*--------------*
   //* Feature: rightIndent
 
-  /** getter for rightIndent - gets The right paragraph indent (optional, default value is 0)
+  /** getter for rightIndent - gets 
    * @generated
    * @return value of the feature 
    */
@@ -151,7 +151,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
     return _getIntValueNc(wrapGetIntCatchException(_FH_rightIndent));
   }
     
-  /** setter for rightIndent - sets The right paragraph indent (optional, default value is 0) 
+  /** setter for rightIndent - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -164,7 +164,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
   //*--------------*
   //* Feature: startIndent
 
-  /** getter for startIndent - gets The indent of the first line of the paragraph optional,default value is 0)
+  /** getter for startIndent - gets 
    * @generated
    * @return value of the feature 
    */
@@ -172,7 +172,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
     return _getIntValueNc(wrapGetIntCatchException(_FH_startIndent));
   }
     
-  /** setter for startIndent - sets The indent of the first line of the paragraph optional,default value is 0) 
+  /** setter for startIndent - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -185,7 +185,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
   //*--------------*
   //* Feature: lineSpacing
 
-  /** getter for lineSpacing - gets The spacing between lines (optional, default value is 0)
+  /** getter for lineSpacing - gets 
    * @generated
    * @return value of the feature 
    */
@@ -193,7 +193,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
     return _getIntValueNc(wrapGetIntCatchException(_FH_lineSpacing));
   }
     
-  /** setter for lineSpacing - sets The spacing between lines (optional, default value is 0) 
+  /** setter for lineSpacing - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -206,8 +206,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
   //*--------------*
   //* Feature: alignment
 
-  /** getter for alignment - gets The paragraph alignment (optional, default value is Left).
-                        It can be one of the following values: Left, Center, Right, Justified
+  /** getter for alignment - gets 
    * @generated
    * @return value of the feature 
    */
@@ -215,8 +214,7 @@ public class Paragraph extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.ty
     return _getStringValueNc(wrapGetIntCatchException(_FH_alignment));
   }
     
-  /** setter for alignment - sets The paragraph alignment (optional, default value is Left).
-                        It can be one of the following values: Left, Center, Right, Justified 
+  /** setter for alignment - sets  
    * @generated
    * @param v value to set into the feature 
    */

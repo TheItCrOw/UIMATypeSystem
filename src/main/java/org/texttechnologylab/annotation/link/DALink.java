@@ -1,7 +1,7 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Mon Apr 21 10:21:21 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Sat May 10 12:59:28 CEST 2025 */
 
 package org.texttechnologylab.annotation.link;
  
@@ -20,7 +20,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Annotation represents a (unidirectional) Link between a Document and another Annotations
- * Updated by JCasGen Mon Apr 21 10:21:21 CEST 2025
+ * Updated by JCasGen Sat May 10 12:59:28 CEST 2025
  * XML source: C:/kevin/projects/duui/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class DALink extends Link {

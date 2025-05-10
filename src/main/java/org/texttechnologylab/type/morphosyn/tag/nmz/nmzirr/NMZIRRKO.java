@@ -1,7 +1,7 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Sat May 10 12:59:28 CEST 2025 */
 
 package org.texttechnologylab.type.morphosyn.tag.nmz.nmzirr;
  
@@ -16,9 +16,9 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.texttechnologylab.type.morphosyn.tag.nmz.NMZIRR;
 
 
-/**
- * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
- * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
+/** 
+ * Updated by JCasGen Sat May 10 12:59:28 CEST 2025
+ * XML source: C:/kevin/projects/duui/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class NMZIRRKO extends NMZIRR {
  

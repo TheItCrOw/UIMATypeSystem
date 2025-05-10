@@ -1,25 +1,27 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Sat May 10 12:59:28 CEST 2025 */
 
 package org.texttechnologylab.annotation.ocr.abbyy;
-
-
-import org.apache.uima.cas.impl.CASImpl;
-import org.apache.uima.cas.impl.TypeImpl;
-import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.JCasRegistry;
-import org.apache.uima.jcas.cas.StringList;
+ 
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 
+import org.apache.uima.cas.impl.CASImpl;
+import org.apache.uima.cas.impl.TypeImpl;
+import org.apache.uima.cas.impl.TypeSystemImpl;
+import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCasRegistry;
 
-/** Token type that denotes recognized words.
- * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
- * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
+
+import org.apache.uima.jcas.cas.StringList;
+
+
+/** 
+ * Updated by JCasGen Sat May 10 12:59:28 CEST 2025
+ * XML source: C:/kevin/projects/duui/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Token {
  
@@ -130,7 +132,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: subTokenList
 
-  /** getter for subTokenList - gets Present if a linebreak hyphen was recognized, contains the individual words.
+  /** getter for subTokenList - gets 
    * @generated
    * @return value of the feature 
    */
@@ -138,7 +140,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return (StringList)(_getFeatureValueNc(wrapGetIntCatchException(_FH_subTokenList)));
   }
     
-  /** setter for subTokenList - sets Present if a linebreak hyphen was recognized, contains the individual words. 
+  /** setter for subTokenList - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -151,7 +153,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: isWordFromDictionary
 
-  /** getter for isWordFromDictionary - gets Specifies whether the word was found in the ABBYY FineReader dictionary.
+  /** getter for isWordFromDictionary - gets 
    * @generated
    * @return value of the feature 
    */
@@ -159,7 +161,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getBooleanValueNc(wrapGetIntCatchException(_FH_isWordFromDictionary));
   }
     
-  /** setter for isWordFromDictionary - sets Specifies whether the word was found in the ABBYY FineReader dictionary. 
+  /** setter for isWordFromDictionary - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -172,8 +174,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: isWordNormal
 
-  /** getter for isWordNormal - gets Specifies whether the word was recognized with either a standard or user-defined language,
-                        and that it is not a number or an identifier.
+  /** getter for isWordNormal - gets 
    * @generated
    * @return value of the feature 
    */
@@ -181,8 +182,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getBooleanValueNc(wrapGetIntCatchException(_FH_isWordNormal));
   }
     
-  /** setter for isWordNormal - sets Specifies whether the word was recognized with either a standard or user-defined language,
-                        and that it is not a number or an identifier. 
+  /** setter for isWordNormal - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -195,7 +195,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: isWordNumeric
 
-  /** getter for isWordNumeric - gets Specifies whether the word is a number
+  /** getter for isWordNumeric - gets 
    * @generated
    * @return value of the feature 
    */
@@ -203,7 +203,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getBooleanValueNc(wrapGetIntCatchException(_FH_isWordNumeric));
   }
     
-  /** setter for isWordNumeric - sets Specifies whether the word is a number 
+  /** setter for isWordNumeric - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -216,7 +216,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: containsHyphen
 
-  /** getter for containsHyphen - gets Specifies if the word contains a recognized linebreak hyphen.
+  /** getter for containsHyphen - gets 
    * @generated
    * @return value of the feature 
    */
@@ -224,7 +224,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getBooleanValueNc(wrapGetIntCatchException(_FH_containsHyphen));
   }
     
-  /** setter for containsHyphen - sets Specifies if the word contains a recognized linebreak hyphen. 
+  /** setter for containsHyphen - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -237,7 +237,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: suspiciousChars
 
-  /** getter for suspiciousChars - gets The number of characters that were recognized uncertainly.
+  /** getter for suspiciousChars - gets 
    * @generated
    * @return value of the feature 
    */
@@ -245,7 +245,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getIntValueNc(wrapGetIntCatchException(_FH_suspiciousChars));
   }
     
-  /** setter for suspiciousChars - sets The number of characters that were recognized uncertainly. 
+  /** setter for suspiciousChars - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -258,10 +258,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: minCharConfidence
 
-  /** getter for minCharConfidence - gets The minimum character recognition confidence of all characters in this word.
-                        Use with caution, as these numbers are not guaranteed to be positive and, according to the
-                        ABBYY FineReader documentation, the only meaningful use of confidence is to compare different
-                        recognition variants of the same character.
+  /** getter for minCharConfidence - gets 
    * @generated
    * @return value of the feature 
    */
@@ -269,10 +266,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getShortValueNc(wrapGetIntCatchException(_FH_minCharConfidence));
   }
     
-  /** setter for minCharConfidence - sets The minimum character recognition confidence of all characters in this word.
-                        Use with caution, as these numbers are not guaranteed to be positive and, according to the
-                        ABBYY FineReader documentation, the only meaningful use of confidence is to compare different
-                        recognition variants of the same character. 
+  /** setter for minCharConfidence - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -285,10 +279,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
   //*--------------*
   //* Feature: meanCharConfidence
 
-  /** getter for meanCharConfidence - gets The average character recognition confidence of all characters in this word.
-                        Use with caution, as these numbers are not guaranteed to be positive and, according to the
-                        ABBYY FineReader documentation, the only meaningful use of confidence is to compare different
-                        recognition variants of the same character.
+  /** getter for meanCharConfidence - gets 
    * @generated
    * @return value of the feature 
    */
@@ -296,10 +287,7 @@ public class Token extends de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.T
     return _getFloatValueNc(wrapGetIntCatchException(_FH_meanCharConfidence));
   }
     
-  /** setter for meanCharConfidence - sets The average character recognition confidence of all characters in this word.
-                        Use with caution, as these numbers are not guaranteed to be positive and, according to the
-                        ABBYY FineReader documentation, the only meaningful use of confidence is to compare different
-                        recognition variants of the same character. 
+  /** setter for meanCharConfidence - sets  
    * @generated
    * @param v value to set into the feature 
    */

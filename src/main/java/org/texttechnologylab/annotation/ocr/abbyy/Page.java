@@ -1,25 +1,27 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
+/* Apache UIMA v3 - First created by JCasGen Sat May 10 12:59:28 CEST 2025 */
 
 package org.texttechnologylab.annotation.ocr.abbyy;
-
-
-import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div;
-import org.apache.uima.cas.impl.CASImpl;
-import org.apache.uima.cas.impl.TypeImpl;
-import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.JCasRegistry;
+ 
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
 
+import org.apache.uima.cas.impl.CASImpl;
+import org.apache.uima.cas.impl.TypeImpl;
+import org.apache.uima.cas.impl.TypeSystemImpl;
+import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCasRegistry;
 
-/**
- * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
- * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
+
+import de.tudarmstadt.ukp.dkpro.core.api.segmentation.type.Div;
+
+
+/** 
+ * Updated by JCasGen Sat May 10 12:59:28 CEST 2025
+ * XML source: C:/kevin/projects/duui/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Page extends Div {
  
@@ -127,8 +129,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: index
 
-  /** getter for index - gets The page index, i.e. a running number assigned during the processing.
-                        Usually denoted in the file name as the first part, e.g. "1" for "01_123456789.xml"
+  /** getter for index - gets 
    * @generated
    * @return value of the feature 
    */
@@ -136,8 +137,7 @@ public class Page extends Div {
     return _getIntValueNc(wrapGetIntCatchException(_FH_index));
   }
     
-  /** setter for index - sets The page index, i.e. a running number assigned during the processing.
-                        Usually denoted in the file name as the first part, e.g. "1" for "01_123456789.xml" 
+  /** setter for index - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -150,7 +150,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: pageNumber
 
-  /** getter for pageNumber - gets The page number *as a String* as cover pages etc. are commonly numbered using roman numbers.
+  /** getter for pageNumber - gets 
    * @generated
    * @return value of the feature 
    */
@@ -158,7 +158,7 @@ public class Page extends Div {
     return _getStringValueNc(wrapGetIntCatchException(_FH_pageNumber));
   }
     
-  /** setter for pageNumber - sets The page number *as a String* as cover pages etc. are commonly numbered using roman numbers. 
+  /** setter for pageNumber - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -171,7 +171,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: uri
 
-  /** getter for uri - gets URI of this page, i.e. a Visual Library link.
+  /** getter for uri - gets 
    * @generated
    * @return value of the feature 
    */
@@ -179,7 +179,7 @@ public class Page extends Div {
     return _getStringValueNc(wrapGetIntCatchException(_FH_uri));
   }
     
-  /** setter for uri - sets URI of this page, i.e. a Visual Library link. 
+  /** setter for uri - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -192,7 +192,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: width
 
-  /** getter for width - gets The image width in pixels.
+  /** getter for width - gets 
    * @generated
    * @return value of the feature 
    */
@@ -200,7 +200,7 @@ public class Page extends Div {
     return _getIntValueNc(wrapGetIntCatchException(_FH_width));
   }
     
-  /** setter for width - sets The image width in pixels. 
+  /** setter for width - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -213,7 +213,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: height
 
-  /** getter for height - gets The image height in pixels.
+  /** getter for height - gets 
    * @generated
    * @return value of the feature 
    */
@@ -221,7 +221,7 @@ public class Page extends Div {
     return _getIntValueNc(wrapGetIntCatchException(_FH_height));
   }
     
-  /** setter for height - sets The image height in pixels. 
+  /** setter for height - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -234,7 +234,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: resolution
 
-  /** getter for resolution - gets The image resolution in pixels per inch.
+  /** getter for resolution - gets 
    * @generated
    * @return value of the feature 
    */
@@ -242,7 +242,7 @@ public class Page extends Div {
     return _getIntValueNc(wrapGetIntCatchException(_FH_resolution));
   }
     
-  /** setter for resolution - sets The image resolution in pixels per inch. 
+  /** setter for resolution - sets  
    * @generated
    * @param v value to set into the feature 
    */
@@ -255,8 +255,7 @@ public class Page extends Div {
   //*--------------*
   //* Feature: rotation
 
-  /** getter for rotation - gets The type of rotation applied to original page image before processing (optional).
-                        It can be one of the following values: Normal, RotatedClockwise, RotatedUpsideDown, RotatedCounterclockwise
+  /** getter for rotation - gets 
    * @generated
    * @return value of the feature 
    */
@@ -264,8 +263,7 @@ public class Page extends Div {
     return _getStringValueNc(wrapGetIntCatchException(_FH_rotation));
   }
     
-  /** setter for rotation - sets The type of rotation applied to original page image before processing (optional).
-                        It can be one of the following values: Normal, RotatedClockwise, RotatedUpsideDown, RotatedCounterclockwise 
+  /** setter for rotation - sets  
    * @generated
    * @param v value to set into the feature 
    */
