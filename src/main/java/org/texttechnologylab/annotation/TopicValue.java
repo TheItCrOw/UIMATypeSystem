@@ -1,27 +1,25 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed Feb 26 11:38:01 CET 2025 */
+/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
 
 package org.texttechnologylab.annotation;
- 
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
 
 import org.apache.uima.cas.impl.CASImpl;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
-
-
 import org.apache.uima.jcas.cas.AnnotationBase;
 
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
 
-/** 
- * Updated by JCasGen Wed Feb 26 11:38:01 CET 2025
- * XML source: /home/staff_homes/verma/Documents/projects/UIMATypeSystem/target/jcasgen/typesystem.xml
+
+/** Represents a topic instance with a value/label and associated probability
+ * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
+ * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class TopicValue extends AnnotationBase {
  
@@ -102,7 +100,7 @@ public class TopicValue extends AnnotationBase {
   //*--------------*
   //* Feature: value
 
-  /** getter for value - gets 
+  /** getter for value - gets Topic label for the topic instance
    * @generated
    * @return value of the feature 
    */
@@ -110,7 +108,7 @@ public class TopicValue extends AnnotationBase {
     return _getStringValueNc(wrapGetIntCatchException(_FH_value));
   }
     
-  /** setter for value - sets  
+  /** setter for value - sets Topic label for the topic instance 
    * @generated
    * @param v value to set into the feature 
    */
@@ -123,7 +121,7 @@ public class TopicValue extends AnnotationBase {
   //*--------------*
   //* Feature: probability
 
-  /** getter for probability - gets 
+  /** getter for probability - gets The probability associated with the topic instance
    * @generated
    * @return value of the feature 
    */
@@ -131,7 +129,7 @@ public class TopicValue extends AnnotationBase {
     return _getDoubleValueNc(wrapGetIntCatchException(_FH_probability));
   }
     
-  /** setter for probability - sets  
+  /** setter for probability - sets The probability associated with the topic instance 
    * @generated
    * @param v value to set into the feature 
    */

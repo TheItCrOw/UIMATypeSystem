@@ -1,29 +1,27 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Wed Feb 26 11:38:01 CET 2025 */
+/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
 
 package org.texttechnologylab.annotation;
- 
 
-import java.lang.invoke.CallSite;
-import java.lang.invoke.MethodHandle;
 
 import org.apache.uima.cas.impl.CASImpl;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.impl.TypeSystemImpl;
-import org.apache.uima.jcas.JCas; 
+import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
-
-
 import org.apache.uima.jcas.cas.FSArray;
-import org.texttechnologylab.annotation.model.MetaData;
 import org.apache.uima.jcas.tcas.Annotation;
+import org.texttechnologylab.annotation.model.MetaData;
+
+import java.lang.invoke.CallSite;
+import java.lang.invoke.MethodHandle;
 
 
-/** 
- * Updated by JCasGen Wed Feb 26 11:38:01 CET 2025
- * XML source: /home/staff_homes/verma/Documents/projects/UIMATypeSystem/target/jcasgen/typesystem.xml
+/** Type system for representing topics in BERTopic-based models
+ * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
+ * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class BertTopic extends Annotation {
  
@@ -116,7 +114,7 @@ public class BertTopic extends Annotation {
   //*--------------*
   //* Feature: Topics
 
-  /** getter for Topics - gets Set of Topic with key and Value
+  /** getter for Topics - gets Set of topics with labels and probabilities
    * @generated
    * @return value of the feature 
    */
@@ -125,7 +123,7 @@ public class BertTopic extends Annotation {
     return (FSArray<TopicValue>)(_getFeatureValueNc(wrapGetIntCatchException(_FH_Topics)));
   }
     
-  /** setter for Topics - sets Set of Topic with key and Value 
+  /** setter for Topics - sets Set of topics with labels and probabilities 
    * @generated
    * @param v value to set into the feature 
    */
@@ -134,7 +132,7 @@ public class BertTopic extends Annotation {
   }    
     
     
-  /** indexed getter for Topics - gets an indexed value - Set of Topic with key and Value
+  /** indexed getter for Topics - gets an indexed value - Set of topics with labels and probabilities
    * @generated
    * @param i index in the array to get
    * @return value of the element at index i 
@@ -144,7 +142,7 @@ public class BertTopic extends Annotation {
      return (TopicValue)(((FSArray<TopicValue>)(_getFeatureValueNc(wrapGetIntCatchException(_FH_Topics)))).get(i));
   } 
 
-  /** indexed setter for Topics - sets an indexed value - Set of Topic with key and Value
+  /** indexed setter for Topics - sets an indexed value - Set of topics with labels and probabilities
    * @generated
    * @param i index in the array to set
    * @param v value to set into the array 
@@ -158,7 +156,7 @@ public class BertTopic extends Annotation {
   //*--------------*
   //* Feature: model
 
-  /** getter for model - gets 
+  /** getter for model - gets Metadata about the BERTopic model, such as its name, source and version
    * @generated
    * @return value of the feature 
    */
@@ -166,7 +164,7 @@ public class BertTopic extends Annotation {
     return (MetaData)(_getFeatureValueNc(wrapGetIntCatchException(_FH_model)));
   }
     
-  /** setter for model - sets  
+  /** setter for model - sets Metadata about the BERTopic model, such as its name, source and version 
    * @generated
    * @param v value to set into the feature 
    */

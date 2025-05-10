@@ -1,10 +1,10 @@
 
 
    
-/* Apache UIMA v3 - First created by JCasGen Tue Feb 25 13:16:03 CET 2025 */
+/* Apache UIMA v3 - First created by JCasGen Wed May 07 18:09:54 CEST 2025 */
 
 package org.texttechnologylab.annotation.type;
-
+ 
 
 import java.lang.invoke.CallSite;
 import java.lang.invoke.MethodHandle;
@@ -16,8 +16,10 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
 
 
+
+
 /**
- * Updated by JCasGen Tue Feb 25 13:16:03 CET 2025
+ * Updated by JCasGen Wed May 07 18:09:54 CEST 2025
  * XML source: /home/staff_homes/abrami/Projects/GitProjects/UIMATypeSystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Edge extends GraphBase {

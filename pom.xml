@@ -6,7 +6,7 @@
 
     <groupId>org.texttechnologylab.annotation</groupId>
     <artifactId>typesystem</artifactId>
-    <version>3.0.5</version>
+    <version>3.0.10</version>
 
     <licenses>
         <license>
@@ -27,7 +27,7 @@
             <id>mehler</id>
             <name>Prof. Dr. Alexander Mehler</name>
             <email>mehler@em.uni-frankfurt.de</email>
-            <url>https://www.texttechnologylab.org/team/alexander-abrami/</url>
+            <url>https://www.texttechnologylab.org/team/alexander-mehler/</url>
             <organization>Goethe University Frankfurt / Texttechnology Lab</organization>
             <organizationUrl>https://www.texttechnologylab.org</organizationUrl>
             <roles>
@@ -97,21 +97,22 @@
                 <configuration>
                     <limitToProject>true</limitToProject>
                     <typeSystemIncludes>
-                        <include>src/main/resources/desc/**/*</include>
+                                                <include>src/main/resources/desc/**/*</include>
+<!--                        <include>src/main/resources/desc/type/TextTechnologyParliamentaryTypeSystem.xml</include>-->
                     </typeSystemIncludes>
                     <outputDirectory>
                         src/main/java/
                     </outputDirectory>
                 </configuration>
-<!--                <executions>-->
-<!--                    <execution>-->
-<!--                        &lt;!&ndash;call it in the generate-source phase &ndash;&gt;-->
-<!--                        <phase>generate-sources</phase>-->
-<!--                        <goals>-->
-<!--                            <goal>generate</goal>-->
-<!--                        </goals>-->
-<!--                    </execution>-->
-<!--                </executions>-->
+                <executions>
+                    <execution>
+                        <!--call it in the generate-source phase -->
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
 
             <plugin>
